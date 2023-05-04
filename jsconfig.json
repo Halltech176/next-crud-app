@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"],
+      "@/ui/*": ["src/components/ui/*"],
+      "@/backend/*": ["src/backend/*"],
+      "@/controllers/*": ["src/backend/controllers/*"],
+      "@/models/*": ["src/backend/controllers/models/*"],
+      "@/pages/*": ["src/pages/*"]
     }
   }
 }
